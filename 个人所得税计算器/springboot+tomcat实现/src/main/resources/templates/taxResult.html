@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Income Tax Result</title>
+</head>
+<body>
+
+<h2>计算结果</h2>
+
+<p>年收入<span th:text="${taxResult.income}"></span></p>
+<p>纳税额 <span th:text="${taxResult.tax}"></span></p>
+
+</body>
+</html>
